@@ -70,7 +70,7 @@ git clone https://github.com/LiangPPP/DP.git
 
 Open your terminal and enter the following commands:
 ```
-cd DP
+cd DP/DP
 python3 example_DP.py
 ```
 

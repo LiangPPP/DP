@@ -1,7 +1,7 @@
 from PETWorks import PETAnonymization, output
 from PETWorks.attributetypes import *
 
-originalData = "NHANES_hierarchy/NHANES.csv"
+originalData = "NHANES.csv"
 dataHierarchy = "NHANES_hierarchy/NHANES_hierarchy"
 
 attributeTypes = {

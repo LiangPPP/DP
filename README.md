@@ -41,11 +41,11 @@ To release the NHANES dataset in compliance with k-anonymity, it's crucial first
 
 
 ## Quick Start - Differential Privacy
-## Environment Requirements
+### Environment Requirements
 
 - Python version must be greater than `3.7.1` and less than `3.11`.
 
-## Step 1: Install `smartnoise-synth`
+### Step 1: Install `smartnoise-synth`
 
 Open your terminal and enter the following commands:
 ```
@@ -55,14 +55,14 @@ pip install openDP==0.6.2
 
 > **Note:** When running `pip install openDP==0.6.2`, you may see an error in red indicating that `smartnoise-synth` requires `openDP` version to be `>= 0.7.0`. However, due to the lack of a specific API required by `smartnoise-synth` in `openDP` versions after `0.7.0`, we choose to install version `0.6.2`.
 
-## Step 2: Clone the Sample Code
+### Step 2: Clone the Sample Code
 
 Open your terminal and enter the following command:
 ```
 git clone https://github.com/LiangPPP/DP.git
 ```
 
-## Step 3: Run the Sample Code
+### Step 3: Run the Sample Code
 
 Open your terminal and enter the following commands:
 ```
@@ -73,42 +73,60 @@ python3 example_DP.py
 
 ## Quick Start - k-anonymization
 
-## Step 1: Clone Petworksframework
+### Step 1: Clone Petworksframework
 Open the Terminal and enter the following command:
 ```
 git clone https://github.com/moda-gov-tw/PETWorks-framework.git
 ```
 
-## Step 2: Download ARX
+### Step 2: Download ARX
 Click on this [link](https://github.com/arx-deidentifier/arx/releases/download/v3.9.0/libarx-3.9.0.jar) to download ARX.
 Then, place the file into the `PETWorks-framework/arx/lib` directory.
 
-## Step 3: Download the Dataset, Data Hierarchy, and Sample Code
+### Step 3: Download the Dataset, Data Hierarchy, and Sample Code
 ```
 git clone https://github.com/LiangPPP/DP.git
 ```
 Move `example_k.py`, `NHANES_hierarchy`, and `NHANES.csv` from the `k-anonymization` folder into the `PETWorks-framework` folder.
 
-## Step 4: Install Required Packages
+### Step 4: Install Required Packages
 Open the Terminal and enter the following commands:
 ```
 cd PETWorks-framework
 pip install -r requirements.txt
 ```
 
-## Step 5: Run the Sample Program
+### Step 5: Run the Sample Program
 In the Terminal, enter the following command:
 ```
 python3 example_k.py
 ```
 
-## Step 6: View the k-anonymized Data
+### Step 6: View the k-anonymized Data
 Inside the `PETWorks-framework` directory, you can find the `output.csv` which contains the k-anonymized data.
 
 
 
+## Quick Start - Synthetic Data
 
+### Step 1: Install `SDV`
+Open the Terminal and enter the following commands:
+```
+pip install SDV
+```
 
+### Step 2: Download Sample Code
+Open the Terminal and enter the following commands:
+```
+git clone https://github.com/LiangPPP/DP.git
+```
+
+### Step 3: Run Sample Code
+Open the Terminal and enter the following commands:
+```
+cd DP/SD
+python3 example_SD.py
+```
 
 ## Reference
 Please refer to [here](https://hackmd.io/Wyxi11CrQpelLfnRdoCBtA) for the Chinese version of this documentation. 

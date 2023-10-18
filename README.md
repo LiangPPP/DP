@@ -1,10 +1,6 @@
 # Shared Diabetes Prediction Research Data
 
-In this case, we have two roles, which are a data owner and multiple data analysts. The data owner (e.g., NIH) is in possession of a sensitive dataset (e.g., diabetes dataset). The analysts are all interested in the diabetes dataset. Unfortunately, the sensitive dataset cannot be released directly due to privacy concerns. Thus, a common goal shared by the data owner and data analysts is to have a surrogate dataset such that the diabetes dataset will not be leaked but the analysts can still derive some statistics or build up machine learning models. As differential privacy is a de facto standard for data privacy, the surrogate dataset would be recommended to satisfy differential privacy. 
-
-Synthesizing a dataset from the sensitive dataset (e.g., through generative models like GANs) and then releasing it has been a common belief that the data privacy will be retained. Unfortunately, such a privacy has been proven unsatisfiable theoretically and practically. The technical challenges include the lack of privacy definition, the difficulty in handling the inherent high-dimensionality of the data, and the mixed data type in real-world datasets. 
-
-Here, we introduce differential privacy (DP), a technique of PETs, to the data synthesis. In particular, we will construct a differentially private synthetic dataset (i.e., the synthetic dataset with the differential privacy guarantee) as a surrogate for the data release. The differentially private synthetic dataset naturally relies on a formal privacy definition. The second and third challenges can then be handled by the particular design of differentially private data synthesis. 
+In this case, we have two roles, which are a data owner and multiple data analysts. The data owner (e.g., NIH) is in possession of a sensitive dataset (e.g., diabetes dataset). The analysts are all interested in the diabetes dataset. Unfortunately, the sensitive dataset cannot be released directly due to privacy concerns. Thus, a common goal shared by the data owner and data analysts is to have a surrogate dataset such that the diabetes dataset will not be leaked but the analysts can still derive some statistics or build up machine learning models. 
 
 ## Dataset
 

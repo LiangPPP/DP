@@ -75,7 +75,7 @@ python3 example_DP.py
 
 ## Step 1: Clone Petworksframework
 Open the Terminal and enter the following command:
-```bash
+```
 git clone https://github.com/moda-gov-tw/PETWorks-framework.git
 ```
 

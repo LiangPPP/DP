@@ -30,7 +30,7 @@ Differential Privacy、k-anonymization
 
 ## Goals of Using PETs
 
-Here, we introduce the use of differential privacy (DP). The use of DP makes the attacker confused about whether an individual record (e.g., patient) exists or not. In other words, DP protects the individual patient privacy. 
+To protect the information of participants involved in the NHANES data collection, measures must be taken to prevent these participants from being targeted and inferred. Additionally, the released data should retain a significant degree of usability for subsequent observation or data analysis.
 
 ## Data Processing
 

@@ -71,7 +71,7 @@ git clone https://github.com/LiangPPP/DP.git
 Open your terminal and enter the following commands:
 ```
 cd DP
-python3 DP.py
+python3 example_DP.py
 ```
 
 
@@ -89,9 +89,9 @@ Then, place the file into the `PETWorks-framework/arx/lib` directory.
 
 ## Step 3: Download the Dataset, Data Hierarchy, and Sample Code
 ```
-git clone https://github.com/LiangPPP/NHANES_hierarchy.git
+git clone https://github.com/LiangPPP/DP.git
 ```
-Next, move the entire project under the `PETWorks-framework` folder.
+Next, move the `K-anonymization` under the `PETWorks-framework` folder.
 
 ## Step 4: Install Required Packages
 Open the Terminal and enter the following commands:
@@ -103,7 +103,7 @@ pip install -r requirements.txt
 ## Step 5: Run the Sample Program
 In the Terminal, enter the following command:
 ```
-python3 Kanonymization.py
+python3 example_K.py
 ```
 
 ## Step 6: View the K-anonymized Data

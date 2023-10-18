@@ -2,7 +2,7 @@ from PETWorks import PETAnonymization, output
 from PETWorks.attributetypes import *
 
 originalData = "NHANES.csv"
-dataHierarchy = "NHANES_hierarchy/NHANES_hierarchy"
+dataHierarchy = "NHANES_hierarchy"
 
 attributeTypes = {
     "RIAGENDR": QUASI_IDENTIFIER,

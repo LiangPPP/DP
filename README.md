@@ -91,7 +91,7 @@ Then, place the file into the `PETWorks-framework/arx/lib` directory.
 ```
 git clone https://github.com/LiangPPP/DP.git
 ```
-Next, move the `K-anonymization` under the `PETWorks-framework` folder.
+Move `example_K.py`, `NHANES_hierarchy`, and `NHANES.csv` from the `K-Anonymization` folder into the `PETWorks-framework folder`.
 
 ## Step 4: Install Required Packages
 Open the Terminal and enter the following commands:

@@ -72,7 +72,6 @@ for attr in num_attr:
 			tmp.append([attr_info_1[attr][idx-1], attr_info_1[attr][idx]])
 	attr_reverse[attr] = tmp
 	del tmp
-#print(attr_reverse['RIDAGEYR'][4][0])
 
 for attr in num_attr:
 	output[attr] = output[attr].swifter.apply(value_dispatch_2, args=(attr_reverse[attr],))
